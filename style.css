@@ -1,0 +1,96 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    height: 100vh;
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Card Styling */
+  .card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 8px 8px 0px black;
+    width: 320px;
+    overflow: hidden;
+  }
+  
+  /* Image Styling */
+  .card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px 0; 
+    padding: 0 20px;
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 20px;
+  }
+  
+  /* Tag Styling */
+  .tag {
+    background-color: #f4d04e; /* Yellow background */
+    color: black;              /* Black text */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+  }
+  
+  
+  /* Published Date */
+  .published-date {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  /* Title */
+  .card-title {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(75, 76, 59);
+  }
+  
+  /* Description */
+  .card-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  /* Author Section */
+  .author {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .author-name {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+  }
+  
